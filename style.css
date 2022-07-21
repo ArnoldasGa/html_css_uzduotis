@@ -1,3 +1,35 @@
-.first container {
+.first .row:nth-child(2) :nth-child(even) {
     background-color: black;
+    color: white;
+}
+
+.first .row:nth-child(3) :nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+
+.first .row:nth-child(4) :nth-child(even) {
+    background-color: black;
+    color: white;
+}
+
+.first .row:nth-child(5) :nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+
+.second .row:nth-child(2) :nth-child(1) {
+    background-color: lightblue;
+}
+
+.second .row:nth-child(2) :nth-child(2) {
+    background-color: brown;
+}
+
+.second .row:nth-child(2) :nth-child(3) {
+    background-color: purple;
+}
+
+.second .row:nth-child(2) :nth-child(4) {
+    background-color: orange;
 }
